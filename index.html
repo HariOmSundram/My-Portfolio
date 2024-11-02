@@ -46,9 +46,6 @@
             list-style-type: none;
             padding: 0;
         }
-        li {
-            padding: 5px 0;
-        }
         a {
             color: #007BFF;
             text-decoration: none;
@@ -62,6 +59,15 @@
             text-align: center;
             font-size: 14px;
             color: #777;
+        }
+        .skills-hobbies {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 0;
+        }
+        .skills, .hobbies {
+            width: 48%;
         }
     </style>
 </head>
@@ -98,33 +104,44 @@
         <hr>
         <ul>
             <li>
-                <h3>Redcliffe Labs</h3>
+                <a href="./assets/Experience cum Relieving Letter-Hari Om Sundram.pdf"><h3>Redcliffe Labs</h3></a>
                 <h5>QA Test Engineer</h5>
                 <ul>
                     <li>Collaborated closely with development teams to understand project requirements and create test cases for manual testing.</li>
                     <li>Conducted functional, regression, and usability testing to identify defects and ensure software quality.</li>
                     <li>Assisted in the documentation of test cases and defects, providing clear and detailed information to the development team.</li>
-                    <li><a href="./assets/Experience cum Relieving Letter-Hari Om Sundram.pdf">Experience Letter</a></li>
                 </ul>
-
             </li>
         </ul>
    
-        <h3>Skills</h3>
+        <h3>Skills & Hobbies</h3>
         <hr>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>SELENIUM</li>
-            <li>API TESTING</li>
-            <li>JIRA</li>
-            <li>SQL</li>
-            <li>JavaScript</li>
-            <li>C/C++</li>
-        </ul>
+        <div class="skills-hobbies">
+            <div class="skills">
+                <h4>Skills</h4>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>SELENIUM</li>
+                    <li>API TESTING</li>
+                    <li>JIRA</li>
+                    <li>SQL</li>
+                    <li>JavaScript</li>
+                    <li>C/C++</li>
+                </ul>
+            </div>
+            <div class="hobbies">
+                <h4>Hobbies</h2>
+                    <ul>
+                        <li>Coding</li>
+                        <li>Gardening</li>
+                        <li>Basketball</li>
+                        <li>Cook</li>
+                    </ul>
+            </div>
+        </div>
 
-        <a href="./public/hobbies.html"><h3>Hobbies</h3></a>
         <hr>
-
+        
         <footer>
             © Hari Om Sundram <br>
             <a href="./public/contact.html">Contact Me</a>
