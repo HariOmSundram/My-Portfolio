@@ -3,62 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            float: right;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+        h1 {
+            color: #333;
+        }
+        h3 {
+            color: #555;
+        }
+        h4 {
+            color: #666;
+        }
+        h5 {
+            color: #777;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-    <img src="./assets/Profile Pic.jpg" height="120" alt="My Profile Picture" style="float: right;">
-    <h1>Hari Om Sundram</h1>
-    <br>
-   <h3>Summary</h3>
-   <hr>
-    <p>"Recent Computer Science graduate proficient in Python and JavaScript, with strong 
-        problem-solving abilities, a passion for technology, and a commitment to quality, eager to join a dynamic software development team and contribute expertise while pursuing professional growth."
-    </p>
-    <br>
-   <h3>Education</h3>
-   <hr>
-   <h4>Graduation/B.Tech</h4>
-   <ul>
-    <li>KIIT University,Bhubneshwar,Odisha</li>
-   </ul>
-    
-   <h4>Intermediate</h4>
-   <ul>
-    <li>D.A.V Public School,Dhurwa,Ranchi</li>
-   </ul>
-   <h4>Matriculation</h4>
-    <ul>
-        <li>D.A.V Public School,Gandhi Nagar,Ranchi</li>
-    </ul>
-    <br>
-   <h3>Work Experience</h3>
-   <hr>
-    <ul>
-        <li><a href="./assets/Experience cum Relieving Letter-Hari Om Sundram.pdf"><h3>Redcliffe Labs</h3></a>
-            <h5>QA Test Engineer</h5>
-            <ul>
-                <li>Collaborated closely with development teams to understand project requirements and create test cases for manual testing.</li>
-                <li>Conducted functional, regression, and usability testing to identify defects and ensure software quality.</li>
-                <li>Assisted in the documentation of test cases and defects, providing clear and detailed information to the development team.</li>
-            </ul>
-        </li>
-    </ul>
+    <div class="container">
+        <img src="./assets/Profile Pic.jpg" alt="My Profile Picture">
+        <h1>Hari Om Sundram</h1>
+        
+        <h3>Summary</h3>
+        <hr>
+        <p>
+            Recent Computer Science graduate proficient in Python and JavaScript, with strong 
+            problem-solving abilities, a passion for technology, and a commitment to quality. Eager to join a dynamic software development team and contribute expertise while pursuing professional growth.
+        </p>
+
+        <h3>Education</h3>
+        <hr>
+        <h4>Graduation / B.Tech</h4>
+        <ul>
+            <li>KIIT University, Bhubneshwar, Odisha</li>
+        </ul>
+        
+        <h4>Intermediate</h4>
+        <ul>
+            <li>D.A.V Public School, Dhurwa, Ranchi</li>
+        </ul>
+        
+        <h4>Matriculation</h4>
+        <ul>
+            <li>D.A.V Public School, Gandhi Nagar, Ranchi</li>
+        </ul>
+
+        <h3>Work Experience</h3>
+        <hr>
+        <ul>
+            <li>
+                <h3>Redcliffe Labs</h3>
+                <h5>QA Test Engineer</h5>
+                <ul>
+                    <li>Collaborated closely with development teams to understand project requirements and create test cases for manual testing.</li>
+                    <li>Conducted functional, regression, and usability testing to identify defects and ensure software quality.</li>
+                    <li>Assisted in the documentation of test cases and defects, providing clear and detailed information to the development team.</li>
+                    <li><a href="./assets/Experience cum Relieving Letter-Hari Om Sundram.pdf">Experience Letter</a></li>
+                </ul>
+
+            </li>
+        </ul>
    
-   <h3>Skills</h3>
-   <hr>
-    <ul>
-        <li>HTML & CSS</li>
-        <li>SELENIUM</li>
-        <li>API TESTING</li>
-        <li>JIRA</li>
-        <li>SQL</li>
-        <li>JavaScript</li>
-        <li>C/C++</li>
-    </ul>
-    <a href="./public/hobbies.html"><h3>Hobbies</h3></a>
-   <hr>
-   <footer>
-    © Hari Om Sundram <br>
-    <a href="./public/contact.html">Contact Me</a>
-   </footer>
+        <h3>Skills</h3>
+        <hr>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>SELENIUM</li>
+            <li>API TESTING</li>
+            <li>JIRA</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>C/C++</li>
+        </ul>
+
+        <a href="./public/hobbies.html"><h3>Hobbies</h3></a>
+        <hr>
+
+        <footer>
+            © Hari Om Sundram <br>
+            <a href="./public/contact.html">Contact Me</a>
+        </footer>
+    </div>
 </body>
 </html>
